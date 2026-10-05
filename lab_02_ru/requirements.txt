@@ -1,0 +1,11 @@
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+matplotlib>=3.7
+faster-whisper>=1.0
+# faster-whisper 1.2.x passes metadata_errors to av.open; PyAV 19 removed that API.
+av>=11,<19
+jupyter>=1.0
+nbformat>=5.9
+pytest>=8.0
