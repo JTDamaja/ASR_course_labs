@@ -1,0 +1,27 @@
+{
+  "alignment_path": [
+    0,
+    1,
+    1,
+    2,
+    3,
+    4
+  ],
+  "alignment_total_cost": 3.0,
+  "alternative_path_cost": 3.7,
+  "candidate_rankings": {
+    "0.0": [
+      "acoustic_favorite",
+      "language_favorite"
+    ],
+    "0.5": [
+      "language_favorite",
+      "acoustic_favorite"
+    ],
+    "1.0": [
+      "language_favorite",
+      "acoustic_favorite"
+    ]
+  },
+  "note": "\u0421\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0438 \u0430\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0431\u0430\u043b\u043b\u044b \u0441\u0438\u043d\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435: \u044d\u0442\u043e \u0443\u0447\u0435\u0431\u043d\u044b\u0439 \u043f\u0440\u0438\u043c\u0435\u0440, \u0430 \u043d\u0435 \u0432\u044b\u0432\u043e\u0434 \u043c\u043e\u0434\u0435\u043b\u0438."
+}

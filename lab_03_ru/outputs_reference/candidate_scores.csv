@@ -1,0 +1,7 @@
+lm_weight,rank,candidate_id,transcript,acoustic_log_score,lm_log_score,combined_log_score
+0.00,1,acoustic_favorite,we drink strong coffee,-1.000000,-2.654739,-1.000000
+0.00,2,language_favorite,we drink green tea,-1.200000,-1.911720,-1.200000
+0.50,1,language_favorite,we drink green tea,-1.200000,-1.911720,-2.155860
+0.50,2,acoustic_favorite,we drink strong coffee,-1.000000,-2.654739,-2.327369
+1.00,1,language_favorite,we drink green tea,-1.200000,-1.911720,-3.111720
+1.00,2,acoustic_favorite,we drink strong coffee,-1.000000,-2.654739,-3.654739

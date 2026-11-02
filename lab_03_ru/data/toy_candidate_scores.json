@@ -1,0 +1,12 @@
+[
+  {
+    "candidate_id": "acoustic_favorite",
+    "transcript": "we drink strong coffee",
+    "acoustic_log_score": -1.0
+  },
+  {
+    "candidate_id": "language_favorite",
+    "transcript": "we drink green tea",
+    "acoustic_log_score": -1.2
+  }
+]
