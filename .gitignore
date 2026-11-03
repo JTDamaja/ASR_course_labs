@@ -1,0 +1,15 @@
+# Виртуальные окружения
+.venv-asr-lab01/
+.venv/
+venv/
+
+# Сгенерированные данные
+lab_01_ru/data/
+lab_01_ru/outputs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Личные заметки
+helper.txt
