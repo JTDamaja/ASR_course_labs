@@ -1,0 +1,7 @@
+frame,state_index,state_label,emission_cost,path_cost_so_far
+f1,0,sil_start,0.400,0.400
+f2,1,/y/,0.700,1.100
+f3,1,/y/,0.500,1.600
+f4,2,/e/,0.600,2.200
+f5,3,/s/,0.500,2.700
+f6,4,sil_end,0.300,3.000

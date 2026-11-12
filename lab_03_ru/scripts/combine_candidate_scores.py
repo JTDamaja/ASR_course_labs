@@ -20,6 +20,6 @@ def rank_candidates(
         if not math.isfinite(acoustic) or not math.isfinite(language):
             raise ValueError("баллы кандидатов должны быть конечными")
         row = dict(candidate)
-        row["combined_log_score"] = # напишите ваш код здесь
+        row["combined_log_score"] = acoustic + weight * language    # напишите ваш код здесь
         ranked.append(row)
     return sorted(ranked, key=lambda row: row["combined_log_score"], reverse=True)

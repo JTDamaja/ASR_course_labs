@@ -9,3 +9,4 @@ av>=11,<19
 jupyter>=1.0
 nbformat>=5.9
 pytest>=8.0
+pandas>=2.0
