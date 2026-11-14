@@ -1,0 +1,7 @@
+method,width,path,transcript,retained_mass
+greedy,,"[""a"",""blank"",""blank""]",a,
+beam,5,,ab,0.3115
+beam,5,,a,0.22150000000000003
+beam,5,,b,0.1885
+beam,5,,ba,0.094
+beam,5,,aa,0.054000000000000006

@@ -14,13 +14,24 @@ def extended_target(target, blank=BLANK):
 
 
 def incoming_sum(previous, extended, state, blank):
+    total = previous[state]
+    if state -1 >= 0:
+        total += previous[state - 1]
+    if state -2 >= 0:
+        current = extended[state]
+        if current != blank and current != extended[state -2]:
+            total += previous[state -2]
+    return total
     # напишите ваш код здесь
-    raise NotImplementedError('STUDENT: complete incoming')
+    
 
 
 def terminal_sum(last_row):
     # напишите ваш код здесь
-    raise NotImplementedError('STUDENT: complete terminal')
+    if len(last_row) == 1:
+        return last_row[0]
+    return last_row[-1] + last_row[-2]
+
 
 
 def forward_table(emissions, target, blank=BLANK):
