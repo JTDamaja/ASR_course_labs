@@ -1,0 +1,11 @@
+{
+  "description": "Синтетические вероятности для повторяющихся меток",
+  "blank": "blank",
+  "alphabet": ["blank", "b"],
+  "target": "bb",
+  "emissions": [
+    {"blank": 0.5, "b": 0.5},
+    {"blank": 0.5, "b": 0.5},
+    {"blank": 0.5, "b": 0.5}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Синтетические вероятности декодирования CTC",
+  "blank": "blank",
+  "alphabet": ["blank", "a", "b"],
+  "beam_width": 5,
+  "emissions": [
+    {"blank": 0.10, "a": 0.60, "b": 0.30},
+    {"blank": 0.45, "a": 0.20, "b": 0.35},
+    {"blank": 0.45, "a": 0.20, "b": 0.35}
+  ]
+}

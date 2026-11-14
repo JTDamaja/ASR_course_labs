@@ -1,0 +1,11 @@
+{
+  "description": "Синтетические учебные вероятности CTC",
+  "blank": "blank",
+  "alphabet": ["blank", "b", "a"],
+  "target": "ba",
+  "emissions": [
+    {"blank": 0.10, "b": 0.80, "a": 0.10},
+    {"blank": 0.20, "b": 0.30, "a": 0.50},
+    {"blank": 0.20, "b": 0.10, "a": 0.70}
+  ]
+}
