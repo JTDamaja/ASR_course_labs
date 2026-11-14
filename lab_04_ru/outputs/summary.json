@@ -1,0 +1,46 @@
+{
+  "fixtures": [
+    "forward.json",
+    "decoding.json",
+    "repeated.json"
+  ],
+  "target": "ba",
+  "repeated_target": "bb",
+  "path_count": 27,
+  "matching_path_count": 5,
+  "transcript_probability": 0.661,
+  "final_alpha_cells": [
+    0.581,
+    0.08000000000000002
+  ],
+  "greedy_path": [
+    "a",
+    "blank",
+    "blank"
+  ],
+  "greedy_transcript": "a",
+  "beam_width": 5,
+  "beam_best": "ab",
+  "beam_ledger": [
+    [
+      "ab",
+      0.3115
+    ],
+    [
+      "a",
+      0.22150000000000003
+    ],
+    [
+      "b",
+      0.1885
+    ],
+    [
+      "ba",
+      0.094
+    ],
+    [
+      "aa",
+      0.054000000000000006
+    ]
+  ]
+}

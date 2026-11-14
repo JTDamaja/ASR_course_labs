@@ -4,7 +4,15 @@ from scripts.ctc_core import BLANK, collapse_path, validate
 
 def greedy_path(emissions, alphabet):
     # напишите ваш код здесь
-    raise NotImplementedError('STUDENT: complete greedy')
+    path = []
+    for frame in emissions:
+        best = alphabet[0]
+        for symbol in alphabet[1:]:
+            if frame[symbol] > frame[best]:
+                best = symbol
+        path.append(best)
+    return path
+
 
 
 def greedy_decode(emissions, alphabet, blank=BLANK):
@@ -14,8 +22,14 @@ def greedy_decode(emissions, alphabet, blank=BLANK):
 
 
 def prefix_transitions(prefix, p_blank, p_nonblank, symbol, probability):
-    # напишите ваш код здесь
-    raise NotImplementedError('STUDENT: complete prefix')
+    if prefix and prefix[-1] == symbol:
+        return [
+            (prefix,          p_nonblank * probability),
+            (prefix + symbol, p_blank * probability),
+        ]
+    return [
+        (prefix + symbol, (p_blank + p_nonblank) * probability),
+    ]
 
 
 def prefix_beam_decode(emissions, alphabet, beam_width, blank=BLANK):
