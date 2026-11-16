@@ -59,9 +59,10 @@ class BigramLM:
         previous = self._context(previous)
         word = self._target(word)
         vocab_size = len(self.vocabulary)  # предсказываются слова, <unk> и </s>, но не <s>
-        numerator = # напишите ваш код здесь
-        denominator = # напишите ваш код здесь
-        return numerator / denominator
+        numerator = self.bigram_counts[(previous, word)] + self.k # напишите ваш код здесь
+        denominator = self.context_counts[previous] + self.k * vocab_size # напишите ваш код здесь
+
+        return numerator / denominator #так считаем вероятность
 
     def sentence_logprob(self, sentence: str) -> float:
         previous = BOS
